@@ -18,30 +18,30 @@ int main()
 	printf("\n\n\t\tDisplay User Information\n");
 	
 	printf("\n\tFirst name: \t");
-	scanf("%s",firstName);
+	scanf("%s",&firstName);
 	
 	printf("\n\tMidlle name: \t");
-	scanf("%s",middleName);
+	scanf("%s",&middleName);
 	
 	printf("\n\tLast name \t");
-	scanf("%s",lastName);
+	scanf("%s",&lastName);
 	
 	printf("\n\tBirthdate: \t%s",birthdate);
 	
 	printf("\n\tBirthdate: \t");
-	scanf("%s%s%d",mm,dd,&yyyy);
+	scanf("%s%s%d",&mm,&dd,&yyyy);
 	
 	printf("\n\tFacebook Acct: \t");
-	scanf("%s",facebookAcct);
+	scanf("%s",&facebookAcct);
 	
 	printf("\n\tEmail: \t\t");
-	scanf("%s",email);
+	scanf("%s",&email);
 	
 	printf("\n\tContact: \t");
-	scanf("%s",contactNum);
+	scanf("%s",&contactNum);
 	
 	printf("\n\tProgram: \t");
-	scanf("%s",program);
+	scanf("%s",&program);
 	
 	printf("\n\tSection: \t");
 	scanf("%d",&section);
